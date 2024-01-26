@@ -1,10 +1,10 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       backgroundImage: {
@@ -12,7 +12,22 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        primary : "#66368c",
+
+       secondary :"#fdc818",
+       gr:"#8fbe4c",
+       bl:"#30b2e3",
+       gre:"#7f7f7f",
+       re:"#e03d2a",
+       pu :"#e00e79"
+
+
+        // primary : "#01416F",
+        // secondary :"#F7941D"
+        
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
