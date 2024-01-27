@@ -46,6 +46,7 @@
     position: absolute;
     z-index: -1;
     height: 100%;
-    width: 99%;
+    width: 90%;
     object-fit: cover;
+    border-radius: 15px;
 }

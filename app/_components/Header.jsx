@@ -86,7 +86,7 @@ const Header = () => {
          </div>
         </nav>
       </div>
-
+<button className="btn bg-gradient-to-r from-primary to-pu text-white px-4 py-2">JOIN US</button>
       <div>
       {/* <div className="join">
   <input className="input input-bordered join-item" placeholder="Email"/>

@@ -1,7 +1,8 @@
 
 
-
+"use client"
 import Image from 'next/image'
+import { TypeAnimation } from 'react-type-animation'
 
 
 
@@ -94,6 +95,7 @@ export default function Hero2() {
           </Dialog.Panel>
         </Dialog>
       </header> */}
+      
 
       <div className="relative isolate px-6  lg:px-8">
         <div
@@ -113,8 +115,42 @@ export default function Hero2() {
            
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-            <span className='text-transparent block sm:text-6xl font-extrabold my-4 bg-gradient-to-r  from-primary to-pu bg-clip-text'>Alforqan & Albatool </span>International School
+            <h1 className="text-4xl font-semibold tracking-tight  sm:text-4xl">
+            <span className='text-start'>Welcom to</span>
+            <span className='text-transparent block sm:text-6xl font-extrabold my-4 bg-gradient-to-r  from-primary to-pu bg-clip-text'>
+            
+            
+            <TypeAnimation
+      sequence={[
+       
+       
+        'Alforqan & Albatool',
+        1000,
+       
+        
+      ]}
+      wrapper="span"
+      speed={40}
+     
+      
+    /> </span>
+            
+            
+            
+            
+          <TypeAnimation
+      sequence={[
+       
+
+        'International School',
+        1000,
+      
+      ]}
+      wrapper="span"
+      speed={20}
+     
+      
+    /> 
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
              Alforqan is an amazing school where you can excel in academics and also build friendships that will last a lifetime.
@@ -146,7 +182,7 @@ export default function Hero2() {
         </div>
       </div>
 <div>
-      <Image src="/hero.png"width={500} height={500} alt='hero23' />
+      <Image src="/hero.png"width={500} height={500} alt='hero23' className='animate-[bounce_8s_ease_alternate_infinite]' />
 
 </div>
     </div>
