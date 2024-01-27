@@ -8,11 +8,11 @@ const AiServices = () => {
 
   return (
     <div className="px-4 h-fit pt-16">
-    <div className="flex flex-col pl-4 pb-4 items-center border-primary border-b-4 gap-8">
+    <div className="flex flex-col pl-4 pb-4 items-center  gap-8">
     
      <div className="grid grid-cols-2 items-center">
       <div>
-      <h1 className="font-semibold text-3xl mb-8 text-center text-primary ">The AI companion to top educators and schools</h1>
+      <h1 className="font-semibold text-3xl mb-8  lg:text-4xl ">The AI companion to top educators and schools</h1>
       <p className="col-span-1 text-lg font-semibold leading-10 "><span className="text-4xl text-pu ml-12 mr-2">Meet</span> Apex Co-Pilot, your new teaching assistant. Apex Co-Pilot helps teachers boost productivity and personalize learning, all with the confidence that it’s private, safe, and secure. <span className="block mt-4">
      Our platform has emerged as the preferred option for educators and prestigious schools in Saudi Arabia and beyond. These institutions trust us to consistently surpass their expectations, enabling them to reach their academic objectives both now and in the future.
      </span></p>
@@ -28,7 +28,7 @@ const AiServices = () => {
     
      <div className="grid grid-cols-2 items-center">
       <div>
-      <h1 className="font-semibold text-3xl mb-8 text-center text-primary ">Save hours of time and make your life easier</h1>
+      <h1 className="font-semibold text-3xl mb-8 lg:text-4xl">Save hours of time and make your life easier</h1>
       <p className="col-span-1 text-lg font-semibold leading-10 "><span className="text-2xl text-pu ml-12 mr-2">Supercharge</span>  your teaching efforts with AI. <span className="block mt-4">
      In collaboration with educators, our team has intricately crafted features aimed at revolutionizing teaching. Explore how these features can simplify your life.
      </span></p>
@@ -49,7 +49,7 @@ const AiServices = () => {
     </div> 
       <div className="col-span-2">
 
-      <h1 className="font-bold text-3xl mb-8  text-primary text-center ">Differentiated classroom resources at your fingertips.</h1>
+      <h1 className="font-bold text-3xl mb-8  lg:text-4xl ">Differentiated classroom resources at your fingertips.</h1>
       <p className="col-span-1 text-lg font-semibold leading-10 pr-8 "><span className="text-2xl text-pu ml-8 mr-2">Craft</span>  customized learning materials, spanning from worksheets to interactive quizzes, meticulously aligned with Apex Learning curriculum. Seamlessly modify content to accommodate various learning styles and proficiency levels. Generate a diverse array of student-centered resources instantly. Each resource is thoughtfully leveled to address a variety of learning needs and styles.</p>
       </div> 
      
@@ -59,7 +59,7 @@ const AiServices = () => {
     
      <div className="grid grid-cols-2 items-center">
       <div>
-      <h1 className="font-semibold text-3xl mb-8 text-center text-primary ">Enrich courses with 10+ standards-aligned curriculum tools</h1>
+      <h1 className="font-semibold text-3xl mb-8 lg:text-4xl ">Enrich courses with 10+ standards-aligned curriculum tools</h1>
       <p className="col-span-1 text-lg font-semibold leading-10 "><span className="text-2xl text-pu ml-12 mr-2">Streamline</span>   the course creation process with the help of Apex Co-Pilot AI assistance. Effortlessly design comprehensive lessons plans, summaries, discover novel teaching strategies, or incorporate additional resources, and assessments that align with standards, ensuring ease and efficiency.
      </p>
       </div> 
@@ -74,7 +74,7 @@ const AiServices = () => {
     
      <div className="grid grid-cols-2 items-center">
       <div>
-      <h1 className="font-semibold text-3xl mb-8 text-center text-primary ">Your 24/7 AI teaching assistant</h1>
+      <h1 className="font-semibold text-3xl mb-8 lg:text-4xl">Your 24/7 AI teaching assistant</h1>
       <p className="col-span-1 text-lg font-semibold leading-10 "><span className="text-2xl text-pu ml-12 mr-2">Leverage</span>   Apex Co-Pilots sophisticated AI chat for immediate support. Whether addressing pedagogical inquiries, offering teaching tips, or providing curriculum guidance, our AI chat serves as your constant 24/7 personal teaching assistant.
      </p>
       </div> 

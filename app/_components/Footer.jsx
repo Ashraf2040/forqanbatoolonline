@@ -149,7 +149,7 @@ const Footer = () => {
               />
 
               <button
-                className="block rounded-full bg-secondary px-8 py-3 font-medium text-[#064C77] transition hover:bg-secondary"
+                className="block rounded-full border-gre border-4 bg-white px-8 py-3 font-medium text-[#064C77] transition "
                 type="submit"
               >
                 Subscribe

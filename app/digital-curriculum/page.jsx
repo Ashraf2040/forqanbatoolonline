@@ -14,7 +14,7 @@ const DigitalCurriculum = () => {
      </p>
       </div> 
      
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
     <Image src="/Picture20.png" alt="ai1" width={600} height={500} className="col-span-1 mb-4 "  />
    
     </div> 
@@ -33,7 +33,7 @@ const DigitalCurriculum = () => {
       <h1 className="font-semibold text-3xl mb-8 lg:text-4xl ">Opportunities to Thrive</h1>
       <p className="col-span-1 text-lg font-semibold leading-10  text-justify"><span className="text-2xl text-pu ml-12 mr-2">Education</span>    cannot thrive on a one-size-fits-all model, as it falls short of addressing the diverse learning needs of each individual student. Whether some require extra assistance, others seek flexibility, or some have struggled in traditional settings, Apex Courses offer a tailored solution. Our instructional design not only builds knowledge but also boosts confidence, providing the necessary scaffolding and support to guide students back on the path to graduation and beyond.
      </p>
-     <Link href="https://firebasestorage.googleapis.com/v0/b/forqan-website.appspot.com/o/Learning%20Oasis%20Brochure.pdf?alt=media&token=3b2e3bb2-f8d6-4394-b17e-188edd94215f"><button className="btn bg-primary mt-8 text-white" type="download">Download brochure</button></Link>
+     <Link href="https://firebasestorage.googleapis.com/v0/b/forqan-website.appspot.com/o/Learning%20Oasis%20Brochure.pdf?alt=media&token=3b2e3bb2-f8d6-4394-b17e-188edd94215f"><button className="btn bg-pu mt-8 text-white" type="download">Download brochure</button></Link>
       </div> 
      
      
@@ -59,7 +59,7 @@ const DigitalCurriculum = () => {
      </p>
 
      
-    <Link className="btn w-fit px-6 self-center bg-primary mt-8 text-white" href="https://firebasestorage.googleapis.com/v0/b/forqan-website.appspot.com/o/Case-Study-Learning-Oasis-Final-1.pdf?alt=media&token=25a448d9-c446-4de8-9482-1d68df6e016a"><button >Case Study</button></Link> 
+    <Link className="btn w-fit px-6 self-center bg-pu mt-8 text-white" href="https://firebasestorage.googleapis.com/v0/b/forqan-website.appspot.com/o/Case-Study-Learning-Oasis-Final-1.pdf?alt=media&token=25a448d9-c446-4de8-9482-1d68df6e016a"><button >Case Study</button></Link> 
      
      
       </div> 
@@ -123,7 +123,7 @@ const DigitalCurriculum = () => {
       </div> 
      
     <div className="flex flex-col items-center">
-    <Image src="/apex12.png" alt="ai1" width={600} height={400} className="col-span-1 rounded-md "  />
+    <Image src="/apex12.jpg" alt="ai1" width={500} height={400} className="col-span-1 rounded-md "  />
    
     </div> 
      </div>

@@ -5,7 +5,7 @@ const Header = () => {
   return (
 
     
-    <header className=" uppercase   w-full flex items-center  px-8   justify-between h-32">
+    <header className=" uppercase   w-full flex items-center  px-8 border-2   justify-between h-32">
     
     {/* <div className="h-[36px] w-[600px] flex items-center text-purple-100 gap-4 rounded-bl-3xl bg-primary absolute right-0 top-0">
     <div className="dropdown">
@@ -67,11 +67,11 @@ const Header = () => {
          </div>
          
           <div className="dropdown">
-  <div  tabIndex={0}  className=" m-1  font-semibold cursor-pointer  hover:text-pu "> <Link href="/ai-services">AI Services</Link></div>
+  <div  tabIndex={0}  className=" m-1  font-semibold cursor-pointer text-pu  hover:text-pu "> <Link href="/ai-services">AI Services</Link></div>
 
          </div>
           <div className="dropdown">
-  <div tabIndex={0}  className=" m-1  font-semibold  cursor-pointer hover:text-pu  "><Link href="/digital-curriculum">Digital Curriculum</Link></div>
+  <div tabIndex={0}  className=" m-1  font-semibold  cursor-pointer text-pu hover:text-pu  "><Link href="/digital-curriculum">Digital Curriculum</Link></div>
 
          </div>
           <div className="dropdown">
