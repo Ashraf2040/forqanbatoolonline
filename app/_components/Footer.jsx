@@ -6,11 +6,11 @@ const Footer = () => {
  
 
 
-  <div className=" bg-primary text-white px-12 pb-2 pt-4 mt-8 ">
+  <div className=" bg-[#064C77] text-white px-12 pb-2 pt-8 mt-8 ">
   
 
     <div
-      className=" grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-auto  w-full h-3/5  pt-16 grid" >
+      className=" grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-auto  w-full h-3/5   grid" >
       <div className="">
         <p className="text-2xl font-semibold   text-white">About Us</p>
 
@@ -143,13 +143,13 @@ const Footer = () => {
               <label htmlFor="email" className="sr-only">Email</label>
 
               <input
-                className="w-full bg-base-300 rounded-full border-gray-200 px-6 py-3 shadow-sm"
+                className="w-full  rounded-full border-gray-200 px-6 py-3 shadow-sm"
                 type="email"
                 placeholder="Enter your email"
               />
 
               <button
-                className="block rounded-full bg-primary px-8 py-3 font-medium text-white transition hover:bg-secondary"
+                className="block rounded-full bg-secondary px-8 py-3 font-medium text-[#064C77] transition hover:bg-secondary"
                 type="submit"
               >
                 Subscribe
@@ -160,7 +160,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className="mt-16 border-t border-sec pt-6 sm:flex sm:items-center sm:justify-between">
+    <div className="mt-4 border-t border-sec pt-6 sm:flex sm:items-center sm:justify-between">
       <p className="text-center text-sm text-white sm:text-left">
         Copyright &copy; {new Date().getFullYear()}. All rights reserved by FBF_Tech.
       </p>

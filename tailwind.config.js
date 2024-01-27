@@ -20,7 +20,7 @@ module.exports = {
        bl:"#30b2e3",
        gre:"#7f7f7f",
        re:"#e03d2a",
-       pu :"#e00e79"
+       pu :"#EB0B6C"
 
 
         // primary : "#01416F",

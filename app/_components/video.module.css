@@ -1,12 +1,14 @@
-.main {
+/* .main {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: center;
+    background-color: #F4F1F0;
     align-items: center;
-    padding: 6rem;
-    height: 100vh;
-}
+    gap: 20px;
+   max-height: 600px;
+    position: relative;
+} */
 
 /* .contents h1 {
     text-transform: uppercase;
@@ -43,10 +45,10 @@
 } */
 
 .video {
-    position: absolute;
-    z-index: -1;
+   
+    /* z-index: -1; */
     height: 100%;
-    width: 90%;
-    object-fit: cover;
-    border-radius: 15px;
+    width: 45%;
+   
+    border-radius: 5px;
 }

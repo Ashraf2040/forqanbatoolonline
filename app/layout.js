@@ -1,11 +1,11 @@
-import { Inter, Roboto,Merriweather,Poppins } from 'next/font/google'
+import { Inter, Roboto,Merriweather,Poppins ,Lexend} from 'next/font/google'
 import './globals.css'
 import Header from './_components/Header'
 import Footer from './_components/Footer'
 
 
 
-const inter = Poppins({ subsets: ['latin'] ,weight :["400"]})
+const inter = Lexend({ subsets: ['latin'] ,weight :["400"]})
 
 export const metadata = {
   title: 'BatoolForqan-School',
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className=' '>
+    <html lang="en" >
 
       <body className={`${inter.className} `}>
 
@@ -23,14 +23,6 @@ export default function RootLayout({ children }) {
 <main>
 {children}
 </main>
-      
-      
-      {/* <NewHero /> */}
-      
-     
-      
-      
-      
       
       <Footer />
       

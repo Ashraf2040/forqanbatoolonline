@@ -18,15 +18,15 @@ const Slideshow = () => {
 
 	return (
 		<div className="flex flex-col ">
-		<div className="self-center"><Divider title="Achievements" /> </div>
-		<div className=" px-16 shadow-sm shadow-primary   ">
+		
+		<div className=" px-4  ">
 			
 
       <Zoom >
 				{images.map((each, index) => (
-					<div key={index} className="flex justify-center bg-purple-50 h-[500px] py-2 px-4">
+					<div key={index} className="flex justify-center h-[500px] py-4 px-4">
 						<Image
-							className=" h-full w-[60%]   rounded-md "
+							className=" h-full w-[80%]   rounded-md "
 							src={`/${each}`} width={500} height={500} alt={each} 
 						/>
 					</div>
