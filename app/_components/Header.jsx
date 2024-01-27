@@ -22,7 +22,7 @@ const Header = () => {
     
     </div> */}
    <div className="md:flex md:items-center md:gap-12">
-       <Image src="/logo.png" width={500} height={500} alt="logo"  className="h-28 w-40"/>
+    <Link href="/"> <Image src="/logo.png" width={500} height={500} alt="logo"  className="h-28 w-40"/></Link>  
       </div>
       
 
